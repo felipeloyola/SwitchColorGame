@@ -10,6 +10,8 @@ alt="Create an iPhone Game using Swift 4 & SpriteKit in 1 Hour! - Timothy Meixne
 
 So far I got this
 
+<img src="https://github.com/felipeloyola/SwitchColorGame/raw/master/SwitchColor_screenshot2.png" alt="drawing" width="200"/>
 <img src="https://github.com/felipeloyola/SwitchColorGame/raw/master/SwitchColorGame.png" alt="drawing" width="200"/>
+
 
 
