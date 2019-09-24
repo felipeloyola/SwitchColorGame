@@ -14,6 +14,9 @@
 		12233729233907910082D7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12233728233907910082D7B1 /* Assets.xcassets */; };
 		1223372C233907910082D7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1223372A233907910082D7B1 /* LaunchScreen.storyboard */; };
 		12233738233910420082D7B1 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12233737233910420082D7B1 /* Settings.swift */; };
+		1223373A233A5B6F0082D7B1 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12233739233A5B6F0082D7B1 /* MenuScene.swift */; };
+		1223373C233A69870082D7B1 /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1223373B233A69860082D7B1 /* bling.wav */; };
+		1223373E233A69950082D7B1 /* game_over.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1223373D233A69950082D7B1 /* game_over.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		1223372B233907910082D7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1223372D233907910082D7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12233737233910420082D7B1 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		12233739233A5B6F0082D7B1 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		1223373B233A69860082D7B1 /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bling.wav; sourceTree = "<group>"; };
+		1223373D233A69950082D7B1 /* game_over.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = game_over.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		1223371A2339078F0082D7B1 /* LabGame1 */ = {
 			isa = PBXGroup;
 			children = (
+				1223373B233A69860082D7B1 /* bling.wav */,
+				1223373D233A69950082D7B1 /* game_over.wav */,
 				1223372D233907910082D7B1 /* Info.plist */,
 				1223373623390AB90082D7B1 /* Assets */,
 				1223373523390AAF0082D7B1 /* Templates */,
@@ -71,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				122337212339078F0082D7B1 /* GameScene.swift */,
+				12233739233A5B6F0082D7B1 /* MenuScene.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -161,7 +170,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				122337272339078F0082D7B1 /* Main.storyboard in Resources */,
+				1223373C233A69870082D7B1 /* bling.wav in Resources */,
 				12233729233907910082D7B1 /* Assets.xcassets in Resources */,
+				1223373E233A69950082D7B1 /* game_over.wav in Resources */,
 				1223372C233907910082D7B1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +186,7 @@
 			files = (
 				122337222339078F0082D7B1 /* GameScene.swift in Sources */,
 				122337242339078F0082D7B1 /* GameViewController.swift in Sources */,
+				1223373A233A5B6F0082D7B1 /* MenuScene.swift in Sources */,
 				12233738233910420082D7B1 /* Settings.swift in Sources */,
 				1223371C2339078F0082D7B1 /* AppDelegate.swift in Sources */,
 			);
